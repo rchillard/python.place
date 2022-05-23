@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Playground</title>
+    <link rel="stylesheet" href="css/pyscript.css" />
+    <script defer src="js/pyscript.js">//Python in the browser: https://pyscript.net/</script> 
+    <style>
+        body {
+            margin: 0 auto;
+            max-width: 65ch;
+        }
+
+        img {
+            margin: 0 auto;
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Python Place</h1>
+    <p>Future home of awesome resources for programming in Python</p>
+    <figure>
+        <img src="img/original/sergey-semin-6KrgVReVVE4-unsplash.jpg">
+        <br>
+        <figcaption>Photo by <a href="https://unsplash.com/@feneek?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sergey Semin</a> on <a href="https://unsplash.com/s/photos/python-snake?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </figcaption>
+    </figure>
+    <p>Write some code in Python <em>in your browser!</em> Powered by <a href="https://pyscript.net/">PyScript</a></p>
+    <py-repl>
+        print("Let's compute using Python!")
+        for x in range(1,4):
+          print(x)
+    </py-repl>
+   
+</body>
+</html>
